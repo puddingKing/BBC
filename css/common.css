@@ -1,0 +1,23 @@
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: Arial,Helvetica,freesans,sans-serif;
+	vertical-align: baseline;
+}
+.wrap{
+	margin-left: auto;
+	margin-right: auto;	
+}
+.f-left{
+	float: left;
+}
+.f-right{
+	float: right;
+}
+.wd175{
+	width: 175px;
+}
+.wd1280{
+	width: 1280px;
+}

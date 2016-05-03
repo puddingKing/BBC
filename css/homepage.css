@@ -1,0 +1,39 @@
+.homepage-top{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	color: white;
+}
+.bbc-nav{
+	height: 39.5px;
+	display: block;
+	position: relative;
+	border-bottom:1px solid black;
+}
+.bbc-logo{
+	padding: 8px 16px 8px 8px;
+}
+.bbc-signin{
+	position: relative;
+	height: 39.5px;
+	background-image: url(../images/homepage/icon-sprite.svg);
+	background-repeat: no-repeat;
+	background-size: 22px;
+	background-position: 14px -70px;
+	border-right: 1px solid grey;
+	border-left: 1px solid grey;
+	border-bottom: 0px;
+	cursor: pointer;
+}
+.bbc-signin span{
+	position: relative;
+	display: block;
+	margin-top: 13px;
+	margin-left: -46px;
+	font-size: 13px;
+	font-weight: bold;
+}
+/*.bbc-signin:hover{
+	border-bottom: 4px solid white;
+}
+*/
