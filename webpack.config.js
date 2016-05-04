@@ -24,9 +24,17 @@ module.exports = {
 		    path.resolve('./modules/')
 		  ],
 	    alias: { //模块简称
-	        extend: 'tools/extend',
-	        jsonp: 'tools/jsonp',
-	        datetime: 'tools/datetime'
+	        // extend: 'tools/extend',
+	        // jsonp: 'tools/jsonp',
+	        // datetime: 'tools/datetime',
+	        jquery:'jquery/dist/jquery.min'
 	    }
 	}
+	// },
+	// plugins:[
+	// 	new webpack.ProvidePlugin({
+	// 		$:'jquery'
+	// 	}),
+	// 	new webpack.optimize.CommonsChunkPlugin('vendor','vender.bundler.js')
+	// ]
 };

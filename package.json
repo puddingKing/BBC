@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/puddingKing/BBC#readme",
   "devDependencies": {
+    "jquery": "^2.2.3",
     "webpack": "^1.13.0"
   }
 }
