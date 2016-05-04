@@ -5,6 +5,10 @@ body{
 	font-family: Arial,Helvetica,freesans,sans-serif;
 	vertical-align: baseline;
 }
+ul{
+	margin: 0px;
+	padding: 0px;
+}
 .wrap{
 	margin-left: auto;
 	margin-right: auto;	

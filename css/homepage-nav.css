@@ -1,0 +1,132 @@
+.homepage-top{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	color: white;
+}
+.bbc-nav{
+	height: 39.5px;
+	display: block;
+	position: relative;
+	border-bottom:1px solid black;
+}
+.bbc-logo{
+	padding: 8px 16px 8px 8px;
+}
+.bbc-signin{
+	position: relative;
+	height: 39.5px;
+	background-image: url(../images/homepage/icon-sprite.svg);
+	background-repeat: no-repeat;
+	background-size: 22px;
+	background-position: 14px -70px;
+	border-right: 1px solid grey;
+	border-left: 1px solid grey;
+	border-bottom: 0px;
+	cursor: pointer;
+}
+.bbc-signin span{
+	position: relative;
+	display: block;
+	margin-top: 13px;
+	margin-left: -46px;
+	font-size: 13px;
+	font-weight: bold;
+}
+.bbc-signin:hover{
+	height: 36.5px;
+	border-bottom: 4px solid #1188bb;
+}
+.bbc-menu{
+	display: block;
+	position: relative;
+	width: auto;
+	height: 100%;
+}
+.bbc-menu ul{
+	list-style: none;
+	display: block;
+	/*border-right:1px solid #666;*/
+	overflow: hidden;
+}
+.bbc-menu li{
+	float: left;
+	display: block;
+	-webkit-padding-before:1em;
+	-webkit-padding-after:1em;
+	-webkit-padding-start:20px;
+	-webkit-padding-end:20px;
+	cursor: pointer;
+	font-size: 13px;
+	font-weight: bold;
+	border-right: 1px solid #666;
+}
+.bbc-nav-news:hover{
+	height: 10px;
+	border-bottom: 4px solid #992211;
+}
+.bbc-nav-sport:hover{
+	height: 10px;
+	border-bottom: 4px solid #ffee11;
+}
+.bbc-nav-weather:hover{
+	height: 10px;
+	border-bottom: 4px solid #88ccee;
+}
+.bbc-nav-shop:hover{
+	height: 10px;
+	border-bottom: 4px solid #2897e5;
+}
+.bbc-nav-earth:hover{
+	height: 10px;
+	border-bottom: 4px solid #ffffff;
+}
+.bbc-nav-travel:hover{
+	height: 10px;
+	border-bottom: 4px solid #ffffff;
+}
+.bbc-nav-captial:hover{
+	height: 10px;
+	border-bottom: 4px solid #064473;
+}
+.bbc-nav-culture:hover{
+	height: 11px;
+	border-bottom: 4px solid #ffffff;
+}
+
+.bbc-menu li:last-child{
+	-webkit-padding-end:85px;
+}
+.bbc-nav-more a{
+	display: block;
+	height: 13px;
+	text-decoration: none;
+}
+.bbc-nav-more a:link{
+	text-decoration: none;
+	color: #ffffff;
+}
+.bbc-nav-more a:visited{
+	color: #ffffff;
+}
+.bbc-nav-more > span{
+	position: absolute;
+	display: block;
+	right: 12px;
+	top: 20px;
+}
+.bbc-icon{	
+	width: 6px;
+	height: 3px;
+}
+.bbc-nav-more .bbc-icon-arrow{
+	background-position: 0 -53px;
+}
+.bbc-nav-more .bbc-icon{
+	background-image: url(../images/homepage/orb-sprite.gif);
+	background-repeat: no-repeat;
+}
+.bbc-nav-more:hover{
+	height: 10px;
+	border-bottom: 4px solid #ffffff;
+}
