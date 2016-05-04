@@ -1,0 +1,26 @@
+{
+  "name": "bbc",
+  "version": "1.0.0",
+  "description": "仿写的BBC官网首页",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puddingKing/BBC.git"
+  },
+  "keywords": [
+    "bbc",
+    "homepage"
+  ],
+  "author": "Shane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/puddingKing/BBC/issues"
+  },
+  "homepage": "https://github.com/puddingKing/BBC#readme",
+  "devDependencies": {
+    "webpack": "^1.13.0"
+  }
+}
