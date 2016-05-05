@@ -45,31 +45,10 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	var $ = __webpack_require__(1);
+	var bbc_nav = __webpack_require__(3);
 	
-	//input、nav的bg color变化
-	(function(){
-		var src;
-		$("#bbc-search-input").focus(function(){
-			src = function(){
-				var dir;
-				$("#homepage-top").css("background-color","white");
-				$("#homepage-top").css("color","black");
-				$("#homepage-top").css("border-bottom","1px solid #e4e4e4");
-				var activearc = $("#bbc-logo-ld").attr("data-activesrc");
-				dir = $("#bbc-logo-ld").attr("src");
-				$("#bbc-logo-ld").attr("src",activearc);
-				$("#bbc-search-input").css("background-color","#e4e4e4");
-				return dir;
-			}();
-		})
-		$("#bbc-search-input").blur(function(){
-			$("#homepage-top").css("background-color","black");
-			$("#homepage-top").css("color","white");
-			$("#homepage-top").css("border-bottom","1px solid #e4e4e4");
-			$("#bbc-logo-ld").attr("src",src);
-			$("#bbc-search-input").css("background-color","#ffffff");
-		})
-	})();
+	
+	bbc_nav(); //导航条变亮变暗
 
 /***/ },
 /* 1 */
@@ -88,6 +67,51 @@
 	/* WEBPACK VAR INJECTION */(function(__webpack_amd_options__) {module.exports = __webpack_amd_options__;
 	
 	/* WEBPACK VAR INJECTION */}.call(exports, {}))
+
+/***/ },
+/* 3 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var $ = __webpack_require__(1);
+	var bbc_nav = function(){
+		var src = "../images/homepage/bbc-blocks-light.png";
+		var activesrc = "../images/homepage/bbc-blocks-dark.png";
+		$("#bbc-search-input").focus(function(){
+			turnLight();
+		})
+		$("#bbc-search-input").blur(function(){
+			turnDark();
+		})
+		
+		$("#bbc-nav-more").click(function(){
+			if ($("#bbc-panel-more").hasClass("bbc-more-active")) {
+				$("#bbc-panel-more").removeClass("bbc-more-active");
+			}else{
+				$("#bbc-panel-more").addClass("bbc-more-active");
+			}
+		})
+	
+		function turnLight(){
+			$("#homepage-top").css("background-color","white");
+			$("#homepage-top").css("color","black");
+			$("#homepage-top").css("border-bottom","1px solid #e4e4e4");
+			$("#bbc-logo-ld").attr("src",activesrc);
+			$("#bbc-search-input").css("background-color","#e4e4e4");
+			$(".bbc-search-icon").css("background-color","#e4e4e4");
+			$(".bbc-icon-arrow").css("background-position","0px 0px");
+		}
+		function turnDark(){
+			$("#homepage-top").css("background-color","black");
+			$("#homepage-top").css("color","white");
+			$("#homepage-top").css("border-bottom","1px solid #e4e4e4");
+			$("#bbc-logo-ld").attr("src",src);
+			$("#bbc-search-input").css("background-color","#ffffff");
+			$(".bbc-search-icon").css("background-color","#ffffff");
+			$(".bbc-icon-arrow").css("background-position","0px -53px");
+		}
+	};
+	module.exports = bbc_nav;
+
 
 /***/ }
 /******/ ]);

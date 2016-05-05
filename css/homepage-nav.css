@@ -1,4 +1,5 @@
 .homepage-top{
+	position: relative;
 	width: 100%;
 	height: auto;
 	background-color: black;
@@ -159,4 +160,75 @@
 	width: 17px;
 	height: 17px;
 	border: 0px;
+}
+.bbc-panel-more{
+	position: relative;
+	overflow: hidden;
+	height: 0px;
+	display: block;
+	width: 100%;
+	background-color: #eaeaea;
+	margin: 0px;
+	border-bottom: 1px solid #eee;
+	transition: all 400ms;
+}
+.bbc-more-active{
+	height: 128px;
+}
+.bbc-panels{
+	position: relative;
+	display: block;
+	height: auto;
+}
+.bbc-panels-content{
+	position: relative;
+	width: 100%;
+	height: auto;
+	display: block;
+	overflow: hidden;
+}
+.bbc-panels-more-title{
+	font-size: 1.8em;
+	font-family: "Gill Sans","Gill Sans MT",Arial,sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	position: absolute;
+	display: block;
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 84px;
+	height: 24px;
+	padding: 8px 16px 8px 4px;
+}
+.bbc-panels-content ul{
+	position: relative;
+	float: left;
+	display: block;
+	width: 84%;
+	height: auto;
+	margin-left: 16%;
+	margin-top: 12px;
+}
+.bbc-panels-content ul li{
+	display: list-item;
+	float: left;
+	width: 20%;
+	height: 36.97px;
+}
+.bbc-panels-list li a{
+	display: block;
+	color: black;
+	text-align: left;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 1.615em;
+	margin: 0 0 .615em 8px;
+	padding: .308em 8px;
+	height: auto;
+	width: 149.25px;
+	min-height: 1.615em;
+}
+.bbc-panels-list li a:hover{
+	background-color: black;
+	color: white;
 }

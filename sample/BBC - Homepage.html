@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>BBC - Homepage</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link rel="apple-touch-icon" href="http://static.bbci.co.uk/wwhp/1.103.0/responsive/img/apple-touch/apple-touch-180.jpg">
@@ -9,46 +9,78 @@
 
 	<link rel="stylesheet" type="text/css" href="../css/common.css" />
 	<link rel="stylesheet" type="text/css" href="../css/homepage-nav.css" />
+	<style type="text/css">
+	
+	</style>
 </head>
 <body>
 	<div class="page">
-		<div class="homepage-top" id="homepage-top">
-			<div class="wrap bbc-nav wd1280">
-				<div class="bbc-logo f-left">
-					<a href="#">
-						<img id="bbc-logo-ld" src="../images/homepage/bbc-blocks-light.png" width="84" height="24" alt="BBC" data-activesrc="../images/homepage/bbc-blocks-dark.png" />
-					</a>
-				</div>
-				<div class="bbc-signin f-left wd175">
-					<a href="/"></a>
-					<span>Sign in</span>
-				</div>
-				<div class="bbc-menu f-left">
-					<ul>
-						<li class="bbc-nav-news">News</li>
-						<li class="bbc-nav-sport">Sport</li> <!-- ffee11 -->
-						<li class="bbc-nav-weather">Weather</li>  <!-- 88ccee -->
-						<li class="bbc-nav-shop">Shop</li>  <!-- 2897e5 -->
-						<li class="bbc-nav-earth">Earth</li> <!-- ffffff -->
-						<li class="bbc-nav-travel">Travel</li> <!-- ffffff -->
-						<li class="bbc-nav-captial">Capital</li><!-- 064473 -->
-						<li class="bbc-nav-culture">Culture</li> <!-- ffffff -->
-						<li class="bbc-nav-more">
-							<a href="#bbc-nav-more">
-								More	
-							</a>
-							<span class="bbc-icon bbc-icon-arrow"></span>
-						</li>
-					</ul>
-				</div>
+		<div id="normal-active">
+			<div class="homepage-top" id="homepage-top">
+				<div class="wrap bbc-nav wd1280">
+					<div class="bbc-logo f-left">
+						<a href="#">
+							<img id="bbc-logo-ld" src="../images/homepage/bbc-blocks-light.png" width="84" height="24" alt="BBC" data-activesrc="../images/homepage/bbc-blocks-dark.png" />
+						</a>
+					</div>
+					<div class="bbc-signin f-left wd175">
+						<a href="/"></a>
+						<span>Sign in</span>
+					</div>
+					<div class="bbc-menu f-left">
+						<ul>
+							<li class="bbc-nav-news">News</li>
+							<li class="bbc-nav-sport">Sport</li> <!-- ffee11 -->
+							<li class="bbc-nav-weather">Weather</li>  <!-- 88ccee -->
+							<li class="bbc-nav-shop">Shop</li>  <!-- 2897e5 -->
+							<li class="bbc-nav-earth">Earth</li> <!-- ffffff -->
+							<li class="bbc-nav-travel">Travel</li> <!-- ffffff -->
+							<li class="bbc-nav-captial">Capital</li><!-- 064473 -->
+							<li class="bbc-nav-culture">Culture</li> <!-- ffffff -->
+							<li class="bbc-nav-more" id="bbc-nav-more">
+								<a href="#bbc-nav-more">
+									More	
+								</a>
+								<span class="bbc-icon bbc-icon-arrow"></span>
+							</li>
+						</ul>
+					</div>
 					<div class="bbc-search">
-					<form class="bbc-search-f f-left">
-						<label>Search the BBC</label>
+						<form class="bbc-search-f f-left">
+							<label>Search the BBC</label>
 							<input class="bbc-search-input f-left" placeholder="Search" id="bbc-search-input"></input>
 							<input class="bbc-search-icon f-left" type="image" src="../images/homepage/orb-search-dark.png"></input>			
-					</form>	
+						</form>
 					</div>
+				</div>
 			</div>
+			<div id="bbc-panel-more" class="bbc-panel-more">
+				<div class="wrap bbc-panels wd1280">
+					<div class="bbc-panels-content">
+						<ul class="bbc-panels-list">
+							<li><a href="#">Autos</a></li>
+							<li><a href="#">Future</a></li>
+							<li><a href="#">TV</a></li>
+							<li><a href="#">Radio</a></li>
+							<li><a href="#">CBBC</a></li>
+							<li><a href="#">CBeebies</a></li>
+							<li><a href="#">Food</a></li>
+							<li><a href="#">iWonder</a></li>
+							<li><a href="#">Bitesize</a></li>
+							<li><a href="#">Music</a></li>
+							<li><a href="#">Arts</a></li>
+							<li><a href="#">Make It Digital</a></li>
+							<li><a href="#">Taster</a></li>
+							<li><a href="#">Nature</a></li>
+							<li><a href="#">Local</a></li>
+						</ul>
+						<h2 class="bbc-panels-more-title">
+						More
+						</h2>
+					</div>
+				</div>
+			</div>
+			<div ></div>
 		</div>
 	</div>
 	<script type="text/javascript" src="../bundle/bbc.js"></script>
