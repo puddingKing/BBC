@@ -1,19 +1,20 @@
 .homepage-top{
 	position: relative;
+	overflow: hidden;
 	width: 100%;
-	height: auto;
+	height: 40px;
 	background-color: black;
 	color: white;
 	transition: all 400ms;
 	border-bottom: 1px solid #e4e4e4;
 }
 .bbc-nav{
-	height: 39.5px;
+	height: auto;
 	display: block;
 	position: relative;
 }
 .bbc-logo{
-	padding: 8px 16px 8px 8px;
+	padding: 8px 16px 4px 8px;
 }
 .bbc-signin{
 	position: relative;
@@ -229,6 +230,6 @@
 	min-height: 1.615em;
 }
 .bbc-panels-list li a:hover{
-	background-color: black;
+	background-color: #333333;
 	color: white;
 }

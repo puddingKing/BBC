@@ -82,12 +82,14 @@
 		$("#bbc-search-input").blur(function(){
 			turnDark();
 		})
-		
+	
 		$("#bbc-nav-more").click(function(){
 			if ($("#bbc-panel-more").hasClass("bbc-more-active")) {
 				$("#bbc-panel-more").removeClass("bbc-more-active");
+				setTimeout(turnDark,400);
 			}else{
 				$("#bbc-panel-more").addClass("bbc-more-active");
+				turnLight();
 			}
 		})
 	
