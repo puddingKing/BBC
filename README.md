@@ -3,7 +3,7 @@
 
 # The init steps
 
-1.安装Webpack
+安装Webpack
 
   npm init
 
