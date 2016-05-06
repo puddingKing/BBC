@@ -1,0 +1,35 @@
+.bbc-banner{
+	width: 100%;
+	height: auto;
+	background-color: #e7e8e1;
+	position: relative;
+	overflow: hidden;
+}
+.bbc-banner-content{
+	height: auto;
+	overflow: hidden;
+	position: relative;
+	display: block;
+}
+.bbc-banner-title{
+	width: 100%;
+	display: block;
+}
+.bbc-banner-title h2{
+	font-weight: 400;
+	font-size: 20px;
+	color: #4a4a4a;
+	-webkit-padding-before:0.7em;
+	-webkit-padding-after:0em;
+	margin-bottom:0px;
+	padding-right: 23px;
+	text-align: right;
+	display: block;
+	overflow: hidden;
+}
+.bbc-banner-title h2 span{
+	margin-left: 0px;
+	display: block;
+	width: 200px;
+	float: left;
+}
