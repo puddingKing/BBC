@@ -28,8 +28,68 @@
 	overflow: hidden;
 }
 .bbc-banner-title h2 span{
-	margin-left: 0px;
+	margin-left: 5px;
 	display: block;
 	width: 200px;
 	float: left;
+}
+.bbc-banner-headline{
+	overflow: hidden;
+	width: 100%;
+	height: 346px;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.bbc-banner-headline ul{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.bbc-banner-headline ul li{
+	position: relative;
+	width: 300px;
+	float: left;
+	cursor: pointer;
+	overflow: hidden;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: block;
+}
+.bbc-banner-headline ul li:first-child{
+	width: 608px;
+}
+.bbc-headline-img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.bbc-headline-img img{
+	width: 100%;
+}
+.bbc-headline-mask{
+	transition: all 0.5s;
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+	height: 98%;
+	display: block;
+	top: 0;
+	background-color: #000;
+	color: black;
+	opacity: 0.1;
+	filter: alpha(opacity=10);
+}
+.bbc-headline-mask:hover{
+	opacity: 0;
+	filter: alpha(opacity=10);
+}
+.bbc-banner-headline ul li p{
+	display: block;
+	position: absolute;
+	bottom: 10%;
+	left:5%;
+	color: #fff;
+	font-family: "Microsoft Yahei";
+	font-weight: normal;
 }

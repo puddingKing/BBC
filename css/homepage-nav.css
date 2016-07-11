@@ -55,10 +55,11 @@
 .bbc-menu li{
 	float: left;
 	display: block;
-	-webkit-padding-before:1em;
-	-webkit-padding-after:1em;
-	-webkit-padding-start:20px;
-	-webkit-padding-end:20px;
+	-webkit-padding-before:1em !important;
+	-webkit-padding-after:1em !important;
+	-webkit-padding-start:20px !important;
+	-webkit-padding-end:20px !important;
+	padding: 13px 20px 13px 20px;
 	cursor: pointer;
 	font-size: 13px;
 	font-weight: bold;
@@ -98,7 +99,8 @@
 }
 
 .bbc-menu li:last-child{
-	-webkit-padding-end:85px;
+	-webkit-padding-end:85px !important;
+	padding-right: 85px;
 }
 .bbc-nav-more a{
 	display: block;
